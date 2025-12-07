@@ -1,0 +1,164 @@
+.titlebox {
+    width: 100%; 
+    background-color: #dfcd26; 
+    height: 10vh; 
+    margin-top: 0%;
+    display: flex; 
+    align-items: center; 
+}
+
+.titlebox-title {
+    text-align: initial; 
+    font-size: 30px; 
+    margin: 0 0 0 15px; 
+}
+
+.copyright {
+    border: none;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+
+}
+
+.terms {
+    border: none;
+    background-color: transparent;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+/* The <a> link version of .terms needs its color defined */
+.copyright-box a.terms {
+    color: white;
+}
+
+
+.copyright-box {
+    /* Sets the width to cover the entire container */
+    width: 100%; 
+    
+    height: 6vh; 
+    
+    /* Choose your desired color */
+    background-color: #060606;
+    
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.navigation-box {
+    /* Sets the width to cover the entire container (which is typically the body/viewport) */
+    width: 100%; 
+    height: 6vh; 
+    
+    /* Choose your desired color */
+    background-color: #2d2d2d; /* A shade of blue, for example */
+    
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+/* Style the main navigation list container */
+.navigation-box .main-nav ul {
+    /* Remove default bullet points */
+    list-style: none;
+    
+    /* Use Flexbox to arrange list items horizontally */
+    display: flex;
+    
+    /* Remove default margins/padding from the <ul> */
+    margin: 0;
+    padding: 0 20px; /* Add some horizontal padding to the whole list */
+}
+
+/* Style the individual list items (the containers for the links) */
+.navigation-box .main-nav ul li {
+    /* Add space between the items */
+    margin-right: 30px; 
+}
+
+/* Style the actual links (the anchor tags) */
+.navigation-box .main-nav ul li a {
+    /* Set the link color to a light grey/white */
+    color: #cccccc; 
+    
+    /* Remove the default underline */
+    text-decoration: none;
+    
+    /* Make the text slightly bolder */
+    font-weight: 500; 
+    
+    /* Optional: Smooth transition for hover effects */
+    transition: color 0.3s;
+    
+    /* Make the link behave like a block for easier click/padding */
+    display: block; 
+}
+
+/* Hover effect: make the link brighter on mouse-over */
+.navigation-box .main-nav ul li a:hover {
+    color: #ffffff; /* Pure white on hover */
+}
+
+/* Active/Selected State: Styles for the 'Home' link in the image */
+.navigation-box .main-nav ul li a.active {
+    color: skyblue; /* Or a light blue color like in the image */
+}
+
+.options-box a.option {
+    border: none;
+    background-color: transparent;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.option {
+    border: none;
+    background-color: transparent;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.options-box {
+    /* Sets the width to cover the entire container (which is typically the body/viewport) */
+    width: 100%; 
+    
+    height: 10vh; 
+    
+    /* Choose your desired color */
+    background-color: #ffffff;
+    
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}

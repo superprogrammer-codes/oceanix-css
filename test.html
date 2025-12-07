@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Element Demo - Complete</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="boxes.css">
+    <link rel="stylesheet" href="others.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="margin: 0; padding: 0;">
+
+    <div class="titlebox">
+        <h1 class="titlebox-title">Elements Showcase: An Interactive Example</h1>
+    </div>
+    
+    <div class="navigation-box">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#" class="active">Home</a></li> 
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <br>
+
+    <div id="main-content">
+        
+        <h2 style="text-align: initial; margin-left: 15px;">Input and Output Area</h2>
+
+        <p style="text-align: initial; margin-left: 15px;">Type some text into the box below and click the button to see the result printed in the console.</p>
+
+        <hr class="line">
+
+        <br>
+        
+        <textarea id="my-text-input" rows="5" cols="40">Hello, world! Type here...</textarea>
+        
+        <br>
+        <br>
+        
+        <button id="action-button" onclick="displayContent()">Submit Text</button>
+        
+        <p id="output-message">Waiting for input...</p>
+        
+    </div>
+
+    <br><br><br><br>
+
+    <div class="options-box">
+        <p style="font-weight: bold; color: black; font-size: medium;">Options:</p>
+        <a href="#" class="option">Option A</a>
+        <a href="#" class="option">Option B</a>
+    </div>
+
+    <script>
+        function displayContent() {
+            // Get the text from the textarea
+            const textContent = document.getElementById('my-text-input').value;
+            
+            // Update the paragraph element
+            document.getElementById('output-message').textContent = 'You submitted: "' + textContent + '"';
+
+            // Optional: Log to the browser console for demonstration
+            console.log('Text submitted:', textContent);
+        }
+    </script>
+    
+    <div class="copyright-box" style="text-align: center;">
+        <span class="copyright">© 2025 Elements Showcase</span>
+        
+        <a href="#" class="terms">Terms of Service</a>
+    </div>
+
+</body>
+</html>
