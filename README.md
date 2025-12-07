@@ -20,6 +20,20 @@ This is a *really modern* .css package that has a really cool combination of **c
 * <span style="color:#2382a8; font-weight:bold;">Coral Blue</span>
 * <span style="color:#FFFFFF; font-weight:bold;">White</span>
 
+## How to use
+
+In the `<head>` tag of your code, add this:
+
+```html
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/superprogrammer-codes/oceanix-css@latest/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/superprogrammer-codes/oceanix-css@latest/boxes.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/superprogrammer-codes/oceanix-css@latest/others.css">
+
+```
+
+Check out [*test.html*](test.html) to see how Oceanix CSS works!
+
 ## Copyright and License
 
 You can use this on any project you want but if you're going to publish/share your project that contains Oceanix CSS rember to give the right credits
