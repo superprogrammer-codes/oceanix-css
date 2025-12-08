@@ -30,7 +30,7 @@ textarea {
     margin: 0 auto;
 }
 
-button {
+.press {
     background-color: #2382a8;
     font-family: 'Montserrat';
     resize: none;
@@ -44,7 +44,7 @@ button {
     transition: all 0.3s ease;
 }
 
-button:hover {
+.press:hover {
     background-color: #1e6480;
     border: #2382a8;
 }
